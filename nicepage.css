@@ -4,10 +4,6 @@
  * Copyright 2014-2020 Froala Labs
  */
 
- .love {
-   color: #ff0000;
- }
- 
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -31510,7 +31506,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-footer .u-image-1 {
-  margin: 41px auto 0 0;
+  margin: 51px auto 0 7px;
 }
 
 .u-footer .u-logo-image-1 {
@@ -31525,7 +31521,7 @@ a.u-link.u-text-hover-grey-90:hover {
   width: 122px;
   min-width: 94px;
   white-space: nowrap;
-  margin: -29px 0 0 auto;
+  margin: -23px auto 0 1011px;
 }
 
 .u-footer .u-icon-1 {
@@ -31546,60 +31542,78 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-footer .u-text-1 {
   font-size: 1.5rem;
-  width: 631px;
-  margin: -32px auto 24px;
+  margin: -30px 255px 41px;
 }
 @media (max-width: 1199px) {
+  .u-footer .u-sheet-1 {
+    min-height: 150px;
+  }
+
   .u-footer .u-image-1 {
-    width: 80px;
-    height: 40px;
+    width: auto;
+    margin-top: 56px;
+    margin-left: 4px;
   }
 
   .u-footer .u-social-icons-1 {
-    margin-top: -29px;
+    margin-top: -31px;
+    margin-left: 815px;
   }
 
   .u-footer .u-text-1 {
-    margin-top: -32px;
+    width: 631px;
+    margin: -30px 151px 39px 158px;
   }
 }
 @media (max-width: 991px) {
+  .u-footer .u-sheet-1 {
+    min-height: 168px;
+  }
+
+  .u-footer .u-image-1 {
+    height: 40px;
+    margin-top: 44px;
+  }
+
+  .u-footer .u-social-icons-1 {
+    margin-top: -31px;
+    margin-left: 595px;
+  }
+
   .u-footer .u-text-1 {
-    margin-right: 0;
+    margin: 20px 45px 44px;
   }
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
-    min-height: 200px;
+    min-height: 251px;
   }
 
   .u-footer .u-image-1 {
-    margin-left: 230px;
+    width: 124px;
+    margin-top: 56px;
+    margin-left: auto;
   }
 
   .u-footer .u-social-icons-1 {
-    margin-right: auto;
-    margin-left: 230px;
+    margin-top: 20px;
+    margin-left: auto;
   }
 
   .u-footer .u-text-1 {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 56px;
     width: 540px;
-    margin-right: auto;
-    margin-left: 230px;
   }
 }
 @media (max-width: 575px) {
-  .u-footer .u-image-1 {
-    margin-left: auto;
-  }
-
-  .u-footer .u-social-icons-1 {
-    margin-left: auto;
+  .u-footer .u-sheet-1 {
+    min-height: 251px;
   }
 
   .u-footer .u-text-1 {
     width: 340px;
-    margin-left: auto;
   }
 }
 
