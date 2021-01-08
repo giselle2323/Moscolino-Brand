@@ -1,9 +1,13 @@
 import Nav from './Nav';
+import Hero from './Hero';
 
 const Header = () => {
-    return (
+  return (
+      <>
         <Nav />
-    )
+        <Hero/>
+      </>
+  )
 };
 
 export default Header;
