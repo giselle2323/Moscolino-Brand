@@ -8,7 +8,7 @@ module.exports = {
         gold: "#D89659",
       },
       backgroundImage: theme => ({
-        'hero-background': "url('/src/images/hero.png')",
+        'hero-background': "url('/src/images/hero1.png')",
       })
     },
   },
