@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React  from "react";
 export const Nav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  // const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     
