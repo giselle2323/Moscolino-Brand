@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         dark_blue: "#111827",
         gold: "#D89659",
+        custom_gray: "#11182740",
       },
       backgroundImage: theme => ({
         'hero-background': "url('/src/images/hero1.png')",
